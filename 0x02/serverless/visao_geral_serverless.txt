@@ -1,0 +1,17 @@
+O que é Arquitetura Serverless?
+1- É um modelo de desenvolvimento em nuvem para a criação de aplicações sem precisar se preocupar com o gerenciamento de servidores. Ou seja, as atividades de manutenção da infra dos servidores e escalonamento ficam a cargo do provedor de nuvem, assim o desenvolvedor precisa apenas empacotar o código em containers, focando apenas no desenvolvimento da aplicação.
+Como as aplicações estão em containers, o provedor de nuvem escala automaticamente a aplicação de acordo com a demanda e por meio de um modelo de execução orientada a eventos.
+O que é Function as a service (FaaS) ?
+2- Função como serviço, é um tipo de computação na nuvem que permite que os desenvolvedores criem, executem e gerenciem pacotes de aplicações como funções (sem a necessidade de se preocupar com a manutenção da infraestrutura - serverless).
+Ou seja, o desenvolvedor foca na criação de funções que são empacotadas em containers e escaladas de acordo com a demanda.
+Uma boa forma de desenvolvedor FaaS é criando funções single-purpose, ou seja, funções com responsabilidade únicas e curtas, pois isso facilita a manutenção e também o escalonamento (em termos de tempo e precisão do escalonamento).
+Quais são os benefícios de usar arquitetura Serverless ?
+3- Aumento na produtividade dos desenvolvedores, pois agora eles podem focar apenas no desenvolvimento da aplicação e deixar de lado as tarefas relacionadas ao gerenciamento dos servidores;
+Custos reduzidos em dois aspectos: você paga apenas o que foi usado na nuvem, pois o escalonamento é sob demanda e se não tiver nenhuma demanda, não tem nenhum container rodando para ser cobrado. E o outro aspecto é que você não precisa criar uma infraestrutura na sua própria empresa.
+O que é Cloud Computing (Computação em Nuvem) ? E quais são seu benefícios ?
+4- Cloud Computing é o fornecimento de serviços de computação, como servidores, armazenamento, banco de dados, rede, software, etc através da internet, onde você paga apenas pelo que usa.
+Alguns benefícios são: custos (elimina o gasto com a compra de hardware e softwares para a configuração e execução de datacenters locais), desempenho (os datacenters são regularmente atualizados com hardwares modernos e eficientes), segurança (muitos provedores oferecem um conjunto de tecnologias e controle para a segurança robusto), etc.
+Quais são as principais diferenças entre Arquitetura Monolítica, Microsserviços e Serverless ?
+5- Monolítica: temos a nossa aplicação como um empacotamento de todos os componentes em uma só unidade, ou seja, quando vamos escalonar, temos que escalonar toda a aplicação.
+Microserviços: temos a nossa aplicação fragmentada em diferentes pacotes (serviços), com propósitos bem específicos. Isso facilita o escalonamento, pois podemos escalar apenas o serviço necessário.
+Serverless: aqui deixamos de se preocupar com os servidores e o seu gerenciamento, e o escalonamento é feito sob demanda (orientada a eventos). Quando pensamos em serverless pensamos normalmente na nossa aplicação dividida em pequenos códigos (funções por exemplo) que serão executadas de acordo com a demanda de requisições. Microsserviços acaba sendo uma boa arquitetura para ser implementada em um ambiente serverless, pois o microsserviço em si já é uma fragmentação de uma aplicação. By GCC.
